@@ -43,7 +43,8 @@ After this change, you can see that 404 errors are correctly handled:
 ### Addressing Higher Response Times on Embedding Endpoints
 In case you would like to failover the embedding endpoint when you expierenced higher response times, one option is to failover to a secondary endpoint if the response time exceeds a certain threshold.
 
-> :warning: **Warning:** It's crucial to apply this fragment only to the embedding endpoint because longer response times can be normal for the chat endpoint as well, even when there are no issues.
+> [!WARNING]  
+ It's citical to apply this fragment only to the *embedding endpoint* because longer response times can be normal for the chat endpoint as well, even when there are no issues.
 
 Here is an example configuration to check the duration and failover accordingly (for testing, 30s was used, but you may want a higher threshold):
 
