@@ -26,7 +26,7 @@ Additionally, I've configured the mock backends published here for testing: [Moc
 - **429 errors** are common during normal operations, indicating that the quota is reached on one endpoint, necessitating the use of another one.
 
 ### Handling 404 Errors
-A scenario not covered yet is when a model is updated to a new version and is unavailable for a period.
+A scenario not covered yet is when a model is manually updated to a new version and is unavailable for a period.
 
 ![Failover 404 Not Working](./failover-404-notworking.png)
 *`failover-404-notworking.png` shows this scenario.*
