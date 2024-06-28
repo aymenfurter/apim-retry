@@ -50,6 +50,3 @@ Here is an example configuration to check the duration and failover accordingly 
 
 ![Backend Routing Added Timeout](./backendrouting-added-timeout.png)
 *`backendrouting-added-timeout.png`*
-
-## Images
-The images referenced are located in the root folder of this repository.
