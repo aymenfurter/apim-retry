@@ -46,7 +46,7 @@ In case you would like to failover the embedding endpoint when you expierenced h
 > [!WARNING]  
  It's citical to apply this fragment only to the *embedding endpoint* because longer response times can be normal for the chat endpoint as well, even when there are no issues.
 
-Here is an example configuration to check the duration and failover accordingly (for testing, 30s was used, but you may want a higher threshold):
+Here is an example configuration to check the duration and failover accordingly (for testing, 30s was used, but you may want a higher threshold, e.g. 600s for retrying the slow endpoint after 10min):
 
 ![Backend Routing Added Timeout](./backendrouting-added-timeout.png)
 *`backendrouting-added-timeout.png`*
